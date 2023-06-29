@@ -1,0 +1,36 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.menu label {
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+}
+
+.menu a {
+    cursor: pointer;
+    color: #4b4b4b;
+}
+
+@media (max-width: 500px) {
+    .menu {
+        gap: 16px;
+    }
+
+    .menu label {
+        font-size: 14px;
+        color: black;
+        font-weight: 600;
+    }
+
+    .menu a {
+        cursor: pointer;
+        color: #4b4b4b;
+    }
+}

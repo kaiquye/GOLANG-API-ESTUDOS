@@ -1,0 +1,9 @@
+.navBar {
+    background-color: rgba(0, 0, 0, 0.72);
+    color: white;
+    display: flex;
+}
+
+.navBar h1 {
+    padding-left: 10px;
+}

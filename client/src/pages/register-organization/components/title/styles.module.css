@@ -1,0 +1,22 @@
+.title  {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 7px;
+
+    align-items: center;
+    text-align: center;
+}
+
+.title h1  {
+    font-size: 125%;
+    color: black;
+    font-weight: 600;
+}
+
+.title img  {
+    width: 10%;
+}

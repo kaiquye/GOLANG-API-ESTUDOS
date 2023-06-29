@@ -1,0 +1,175 @@
+.container {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+
+    background-color: rgba(255, 241, 238, 0.62);
+}
+.container .Modal h2 {
+    color: #efefef;
+    margin-bottom: 22px;
+    font-family: "Courier New";
+}
+
+.container .Modal {
+    display: none;
+
+    text-align: center;
+
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    border: solid black 10px;
+    width: 80%;
+    height: 79vh;
+    padding: 10px;
+
+    background-color: #797979;
+    position: absolute;
+}
+
+.container  form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.container .Modal form  {
+    font-size: 80%;
+    font-weight: 600;
+}
+
+.container .Modal label {
+    font-size: 125%;
+    font-weight: 600;
+}
+
+.container .Modal textarea {
+    margin-top: 10px;
+    max-width: 600px;
+    max-height: 100px;
+    min-width: 400px;
+    min-height: 100px;
+    border: solid 3px black;
+}
+
+.container .Modal button {
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: white;
+    background-color: rgba(0, 128, 0, 0.94);
+    padding: 8px;
+}
+
+.container .Modal button:hover {
+    background-color: #6b6b6b;
+    cursor: pointer;
+}
+
+.container img {
+    width: 50px;
+}
+.container .title {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: black;
+    width: 20%;
+}
+.container .listVacancy {
+    width: 400px;
+    height: 96%;
+    overflow: auto;
+}
+
+.container .list {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 100%;
+    overflow-y: auto;
+
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.container .list li button {
+    margin-top: 10px;
+    font-weight: 600;
+    background-color: #4b4b4b;
+}
+
+.container .list li {
+    padding: 20px;
+    width: 70%;
+    background-color: #222;
+    color: white;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+
+.BtnMenu {
+    margin-left: 10px;
+    background-color: #4b4b4b;
+    padding: 10px;
+    color: white;
+}
+
+.BtnMenu:hover {
+    cursor: pointer;
+    background-color: #8f8f8f;
+}
+
+@media (max-width: 550px) {
+    .container  {
+        color: black;
+        font-weight: 600;
+        text-align: center;
+
+        display: flex;
+    }
+
+    .container .Modal form  {
+        font-size: 80%;
+        font-weight: 600;
+    }
+
+    .container .Modal {
+        border: solid black 10px;
+        width: 80%;
+        height: 70vh;
+        padding: 10px;
+    }
+
+    .container .menu {
+        gap: 25px;
+    }
+
+    .container .Modal textarea {
+        margin-top: 10px;
+        max-width: 480px;
+        max-height: 80px;
+        min-width: 70px;
+        min-height: 80px;
+
+        border: solid 3px black;
+    }
+}
