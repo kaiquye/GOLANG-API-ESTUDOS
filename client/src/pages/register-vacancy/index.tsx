@@ -53,7 +53,7 @@ export function RegisterVacancy() {
           tilte={setTitle}
         />
         <HandleButton onClick={async () => await Register()}>
-          Login
+          Register
         </HandleButton>
         <Link to={"/list-vacancy"}>List all vacancy</Link>
       </div>

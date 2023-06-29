@@ -1,5 +1,5 @@
 import React from "react";
-
+import styles from "./styles.module.css";
 interface IProps {
   error: string | null;
   function: (error: string | null) => void;
@@ -22,7 +22,7 @@ export default function HandleError(error: IProps) {
     <>
       {error.error && (
         <>
-          <div style={{ display: open }}>
+          <div className={styles.container} style={{ display: open }}>
             <h1>{error.error}</h1>
           </div>
         </>

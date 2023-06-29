@@ -1,0 +1,11 @@
+.container {
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    background-color: #bb7b89;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.container h1 {
+    padding-left: 5%;
+}
